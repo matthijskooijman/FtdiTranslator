@@ -1,4 +1,4 @@
-update=Thu 06 Jul 2017 12:43:55 PM CEST
+update=Thu 26 Apr 2018 09:12:17 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,35 +39,4 @@ NetIExt=net
 EquName1=${KIPRJMOD}/../Library/Associations.equ
 [eeschema]
 version=1
-LibDir=../Library
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=74xx
-LibName7=cmos4000
-LibName8=adc-dac
-LibName9=memory
-LibName10=xilinx
-LibName11=microcontrollers
-LibName12=dsp
-LibName13=microchip
-LibName14=analog_switches
-LibName15=motorola
-LibName16=texas
-LibName17=intel
-LibName18=audio
-LibName19=interface
-LibName20=digital-audio
-LibName21=philips
-LibName22=display
-LibName23=cypress
-LibName24=siliconi
-LibName25=opto
-LibName26=atmel
-LibName27=contrib
-LibName28=valves
-LibName29=Components
-LibName30=/home/matthijs/docs/src/upstream/kicad-library/library/regul
+LibDir=

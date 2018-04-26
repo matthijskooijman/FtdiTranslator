@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Components
-LIBS:regul
+EESchema Schematic File Version 4
 LIBS:FtdiTranslator-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R2
+L Device:R R2
 U 1 1 586288A4
 P 5850 950
 F 0 "R2" V 5750 950 50  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 5850 950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Device:R R1
 U 1 1 586288DF
 P 5450 950
 F 0 "R1" V 5530 950 50  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 5450 950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Device:R R4
 U 1 1 586294A6
 P 5150 1200
 F 0 "R4" V 5230 1200 50  0000 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 5150 1200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 586294AC
 P 4750 1200
 F 0 "R3" V 4830 1200 50  0000 C CNN
@@ -89,7 +59,7 @@ F 3 "" H 4750 1200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Device:R R6
 U 1 1 5862978D
 P 5800 1650
 F 0 "R6" V 5880 1650 50  0000 C CNN
@@ -100,7 +70,7 @@ F 3 "" H 5800 1650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Device:R R5
 U 1 1 58629793
 P 5400 1650
 F 0 "R5" V 5480 1650 50  0000 C CNN
@@ -155,7 +125,7 @@ LV
 NoConn ~ 4350 1650
 NoConn ~ 6400 1650
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 58642003
 P 4350 1750
 F 0 "#PWR01" H 4350 1500 50  0001 C CNN
@@ -166,7 +136,7 @@ F 3 "" H 4350 1750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 58642043
 P 6400 1750
 F 0 "#PWR02" H 6400 1500 50  0001 C CNN
@@ -177,7 +147,7 @@ F 3 "" H 6400 1750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP3
+L Device:Jumper_NO_Small JP3
 U 1 1 586432D8
 P 5650 2550
 F 0 "JP3" H 5650 2630 50  0000 C CNN
@@ -188,17 +158,17 @@ F 3 "" H 5650 2550 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 2550 5550 2550
+	5400 2550 5500 2550
 Wire Wire Line
 	5750 2550 5850 2550
 Wire Wire Line
-	4800 2550 4650 2550
+	4800 2550 4700 2550
 Text Label 4650 2550 2    60   ~ 0
 HV
 Text Label 5850 2550 0    60   ~ 0
 LV
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 586449A9
 P 5100 2950
 F 0 "#PWR03" H 5100 2700 50  0001 C CNN
@@ -209,7 +179,7 @@ F 3 "" H 5100 2950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FTDI-DEVICE P1
+L Components:FTDI-DEVICE P1
 U 1 1 595BABF7
 P 3950 1450
 F 0 "P1" H 3950 1750 60  0000 C CNN
@@ -220,7 +190,7 @@ F 3 "" H 3950 1450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FTDI-HOST P2
+L Components:FTDI-HOST P2
 U 1 1 595BAF16
 P 6800 1450
 F 0 "P2" H 6800 1750 60  0000 C CNN
@@ -235,7 +205,7 @@ Typically, the FTDI-DEVICE connector connects\n*to*a host (e.g. FTDI adapter), w
 Text Label 5150 1050 2    60   ~ 0
 LV
 $Comp
-L Jumper_NO_Small JP1
+L Device:Jumper_NO_Small JP1
 U 1 1 595C04F3
 P 4850 900
 F 0 "JP1" H 4850 980 50  0000 C CNN
@@ -246,7 +216,7 @@ F 3 "" H 4850 900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP2
+L Device:Jumper_NO_Small JP2
 U 1 1 595C0569
 P 6200 1250
 F 0 "JP2" H 6200 1330 50  0000 C CNN
@@ -267,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 800  5850 800 
 $Comp
-L 2N7000 Q2
+L Transistor_FET:2N7000 Q2
 U 1 1 595C9FF8
 P 4950 1250
 F 0 "Q2" H 5150 1325 50  0000 L CNN
@@ -278,7 +248,7 @@ F 3 "" H 4950 1250 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2N7000 Q3
+L Transistor_FET:2N7000 Q3
 U 1 1 595CA05E
 P 5600 1700
 F 0 "Q3" H 5800 1775 50  0000 L CNN
@@ -293,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 1050 5150 1050
 $Comp
-L MCP1700-3302E_SOT89 U1
+L Regulator_Linear:MCP1700-3302E_SOT89 U1
 U 1 1 595E5DC0
 P 5100 2550
 F 0 "U1" H 4950 2675 50  0000 C CNN
@@ -304,9 +274,9 @@ F 3 "" H 5100 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 2950 5100 2850
+	5100 2950 5100 2900
 $Comp
-L 2N7000 Q1
+L Transistor_FET:2N7000 Q1
 U 1 1 595C9D4B
 P 5650 1000
 F 0 "Q1" H 5850 1075 50  0000 L CNN
@@ -317,7 +287,7 @@ F 3 "" H 5650 1000 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C C1
+L Device:C C1
 U 1 1 595EA12E
 P 4700 2750
 F 0 "C1" H 4725 2850 50  0000 L CNN
@@ -328,7 +298,7 @@ F 3 "" H 4700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Device:C C2
 U 1 1 595EA1FB
 P 5500 2750
 F 0 "C2" H 5525 2850 50  0000 L CNN
@@ -345,10 +315,10 @@ Wire Wire Line
 	4700 2550 4700 2600
 Connection ~ 4700 2550
 Wire Wire Line
-	4700 2900 5500 2900
+	4700 2900 5100 2900
 Connection ~ 5100 2900
 $Comp
-L PWR_FLAG #FLG04
+L power:PWR_FLAG #FLG04
 U 1 1 595EC89B
 P 6650 2500
 F 0 "#FLG04" H 6650 2575 50  0001 C CNN
@@ -359,7 +329,7 @@ F 3 "" H 6650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG05
+L power:PWR_FLAG #FLG05
 U 1 1 595EC8E0
 P 6650 2750
 F 0 "#FLG05" H 6650 2825 50  0001 C CNN
@@ -370,7 +340,7 @@ F 3 "" H 6650 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG06
+L power:PWR_FLAG #FLG06
 U 1 1 595EC91E
 P 6650 3000
 F 0 "#FLG06" H 6650 3075 50  0001 C CNN
@@ -385,7 +355,7 @@ HV
 Text Label 6800 2750 0    60   ~ 0
 LV
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 595EC9FB
 P 6800 3000
 F 0 "#PWR07" H 6800 2750 50  0001 C CNN
@@ -401,4 +371,12 @@ Wire Wire Line
 	6650 2750 6800 2750
 Wire Wire Line
 	6650 2500 6800 2500
+Wire Wire Line
+	5500 2550 5550 2550
+Wire Wire Line
+	4700 2550 4650 2550
+Wire Wire Line
+	5100 2900 5100 2850
+Wire Wire Line
+	5100 2900 5500 2900
 $EndSCHEMATC
