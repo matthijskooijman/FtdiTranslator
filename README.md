@@ -20,7 +20,9 @@ transistor). Also see [AN10441 from NXP] that explains how the
 translator works.
 
 The repository contains the KiCad design files for the board, under
-"Releases" in github I also have pre-generated gerber files to use.
+"Releases" in github I also have pre-generated gerber files to use. I
+have a few spare boards from my own order, which you can [order through
+tindie](https://www.tindie.com/products/12036/).
 
 Features
 --------
