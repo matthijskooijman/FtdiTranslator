@@ -15,16 +15,18 @@ board in between.
 This board provides such conversion on the TX, RX and DTR lines.
 
 The translator circuit is pretty much copied from [this Adafruit
-board](https://www.adafruit.com/product/757) (except with a different
-transistor). Also see [AN10441 from NXP][AN10441] that explains how the
-translator works.
+board][AdafruitBoard] (except with a different transistor). Also see
+[AN10441 from NXP][AN10441] that explains how the translator works.
 
+[AdafruitBoard]: https://www.adafruit.com/product/757
 [AN10441]: https://www.nxp.com/docs/en/application-note/AN10441.pdf
 
 The repository contains the KiCad design files for the board, under
 "Releases" in github I also have pre-generated gerber files to use. I
 have a few spare boards from my own order, which you can [order through
-tindie](https://www.tindie.com/products/12036/).
+tindie][tindie].
+
+[tindie]: https://www.tindie.com/products/12036/
 
 Features
 --------
@@ -48,9 +50,10 @@ Limitations
    voltage side.
  - The low voltage should not be lower than the transistor threshold
    values. The exact value depends on the exact transistor, temperature,
-   current, etc. but the [fairchild datasheet for the
-   2N7000](http://www.mouser.com/ds/2/149/2N7002-8405.pdf) notes a
-   typical Vth of 2.1V.
+   current, etc. but the [fairchild datasheet for the 2N7000][2N7000]
+   notes a typical Vth of 2.1V.
+
+[2N7000]: http://www.mouser.com/ds/2/149/2N7002-8405.pdf
 
 Needed components
 -----------------
