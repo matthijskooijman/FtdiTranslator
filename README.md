@@ -78,7 +78,6 @@ Depending on your needs, some parts can be left out:
 
 Improvements
 ------------
- - Put version number on silkscreen.
  - Use transistors that work on lower voltages?
  - Add variable regulator and pot or jumpers to select output voltage?
 
