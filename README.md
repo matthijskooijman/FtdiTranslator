@@ -16,8 +16,10 @@ This board provides such conversion on the TX, RX and DTR lines.
 
 The translator circuit is pretty much copied from [this Adafruit
 board](https://www.adafruit.com/product/757) (except with a different
-transistor). Also see [AN10441 from NXP] that explains how the
+transistor). Also see [AN10441 from NXP][AN10441] that explains how the
 translator works.
+
+[AN10441]: https://www.nxp.com/docs/en/application-note/AN10441.pdf
 
 The repository contains the KiCad design files for the board, under
 "Releases" in github I also have pre-generated gerber files to use. I
