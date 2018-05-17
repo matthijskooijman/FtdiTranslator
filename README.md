@@ -1,5 +1,7 @@
 FtdiTranslator PCB design
 =========================
+![AssembledBoard](Docs/Assembled.jpg)
+
 This repository contains the PCB design for an serial level translator
 board. It is intended to be used with a 6-pin USB-to-serial adapter that
 used the "FTDI" pinout, which is commonly used for Arduino boards as
