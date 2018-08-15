@@ -76,11 +76,6 @@ Depending on your needs, some parts can be left out:
  - If you always need DTR connected or the regulator enabled, you can
    solder in a wire instead of a pin header and a jumper.
 
-Improvements
-------------
- - Use transistors that work on lower voltages?
- - Add variable regulator and pot or jumpers to select output voltage?
-
 License
 -------
 This design is copyrighted by Matthijs Kooijman and distributed under
